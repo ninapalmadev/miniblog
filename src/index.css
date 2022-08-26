@@ -1,5 +1,5 @@
 body {
-  background-color: #f5ebe0;
+  background-color: #e5e5e5;
   padding: 0;
   margin: 0;
   font-family: "Roboto", sans-serif;
@@ -19,7 +19,7 @@ a,
 nav button {
   background-color: transparent;
   border: none;
-  color: #e07a5f;
+  color: #344e41;
   cursor: pointer;
   font-family: "Roboto", sans-serif;
   font-size: 1em;
@@ -29,7 +29,7 @@ nav button {
 
 a:hover,
 nav button:hover {
-  color: #81b29a;
+  color: #3a5a40;
 }
 /* form styles */
 form {
@@ -40,14 +40,14 @@ form {
 label {
   display: flex;
   flex-direction: column;
-  margin-bottom: 1px;
+  margin-bottom: 8px;
 }
 
 label span {
-  margin-bottom: 0.3em;
+  margin-bottom: 0.5em;
   font-weight: bold;
   text-align: left;
-  color: #3d405b;
+  color: #14213d;
 }
 
 input,
