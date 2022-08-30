@@ -1,70 +1,64 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Miniblog em React e Firebase
+![localhost_3000_posts_NmgqWRPHrNTxaaGYU2KH (2)](https://user-images.githubusercontent.com/99814252/187535912-2315bffd-4711-41a8-bc5b-e9193499b6b1.png)
 
-## Available Scripts
+## Índice
 
-In the project directory, you can run:
+* [Título e Imagem do projeto](#miniblog-em-react-e-firebase)
+* [Índice](#índice)
+* [Descrição do projeto](#descrição-do-projeto)
+* [React](#react)
+* [Firebase](#firebase)
+* [Funcionalidades e Como Executar](#funcionalidades-do-projeto)
+* [Telas](#telas)
 
+## Descrição do projeto
+Este repositório tem como finalidade apresentar um miniblog criado com React e utilizando Firebase como uma solução mais simplificada para autenticação e armazenamento de posts dos usuários da plataforma.
+
+Aqui foi possível trabalhar com states de erro, states de login, validação com autenticação, criação de hooks, rotas dinâmicas, useParams e funcionalidades disponilizadas pelo Firebase.
+
+
+É o segundo projeto do curso [React do Zero a Maestria (c/ hooks, router, API, Projetos)](https://www.udemy.com/course/react-do-zero-a-maestria-c-hooks-router-api-projetos/) ministrado por [Matheus Battisti](https://www.udemy.com/course/react-do-zero-a-maestria-c-hooks-router-api-projetos/#instructor-1) na plataforma [Udemy](https://www.udemy.com).
+
+## React
+O [React](https://pt-br.reactjs.org) é a biblioteca mais popular do JavaScript e é usada para construir uma interface de usuário (IU). Ela oferece uma resposta excelente para o usuário adicionar comandos usando um novo método de renderizar sites.
+
+Os componentes dessa ferramenta foram desenvolvidos pelo Facebook. Ela foi lançada em 2013 como uma ferramenta JavaScript de código aberto. Atualmente, ela permanece na frente das suas principais competidoras, como a Angular e a Bootstrap, as duas bibliotecas JavaScript mais bem vendidas.  
+## Firebase 
+
+O [Firebase](https://firebase.google.com) foi criado para que o rendimento dos aplicativos aumente, por meio da execução de diferentes tipos de funcionalidades. É possível utilizá-lo nas principais plataformas móveis, como iOS, Android ou na web. Além disso, gera diferentes benefícios que permitem desenvolver de uma forma ágil e efetiva de negócios.
+
+## Funcionalidades do projeto
+
+- `Funcionalidade 1`: criação de posts
+- `Funcionalidade 2`: editação e exclusão de posts
+- `Funcionalidade 3`: visualização, na dashboard, posts criados pelos usuários da plataforma
+- `Funcionalidade 4`: cadastro e autenticação de usuário
+
+## Como executar
+É possível visualizar o projeto [aqui](https://miniblog-two.vercel.app) ou fazer um clone do repositório com o link disponível aqui no GitHub.
+
+No diretório do projeto, use:
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Rodará em modo de desenvolvimento.
+Abra [http://localhost:3000](http://localhost:3000) para vê-lo em seu navegador.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Telas
 
-### `npm test`
+Login de usuário:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![localhost_3000_login](https://user-images.githubusercontent.com/99814252/187534193-f7e24ef3-d329-4c04-9505-ccc9006e987f.png)
 
-### `npm run build`
+Cadastro de usuário:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![localhost_3000_login (1)](https://user-images.githubusercontent.com/99814252/187534201-90d0901f-fb0f-4e2a-a25e-4586b868b70b.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Sobre o projeto:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![localhost_3000_login (2)](https://user-images.githubusercontent.com/99814252/187534214-e7dd892b-631a-485e-be9b-5dba9545ad14.png)
 
-### `npm run eject`
+Visualização de post:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![localhost_3000_posts_NmgqWRPHrNTxaaGYU2KH](https://user-images.githubusercontent.com/99814252/187534226-a7e8a1bc-d6df-4d64-861d-14b2b0fed964.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
