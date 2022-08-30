@@ -58,7 +58,7 @@ const Navbar = () => {
                 to="/dashboard"
                 className={({ isActive }) => (isActive ? styles.active : "")}
               >
-                Timeline
+                Dashboard
               </NavLink>
             </li>
           </>

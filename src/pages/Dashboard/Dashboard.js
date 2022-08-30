@@ -10,7 +10,11 @@ const Dashboard = () => {
   const uid = user.uid;
 
   // post do usuario
-  const posts = [];
+  const {
+    documents: posts,
+    loading,
+    error,
+  } = useFetchDocuments("posts", null, uid);
 
   return (
     <div>
@@ -28,6 +32,7 @@ const Dashboard = () => {
           <p>Tem posts!</p>
         </div>
       )}
+      {posts && posts.map((post) => <h3>{post.title}</h3>)}
     </div>
   );
 };
